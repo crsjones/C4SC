@@ -32,8 +32,7 @@ main()
 	  switch(keyPress & 0x1f)  // handle the keyboard input
 	  {
 		case 0x10: // function key
-				  sc_SendStr("Test scMonitor functions\r\n");
-				  SystemCallTest();
+				  sc_SendStr("Fn Key\r\n");
 		          break;
 		case 0x11: // address key
                   //change the data entry mode from address to data and vica-versa
